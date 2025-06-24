@@ -1,3 +1,4 @@
 {
-  "subdirectory": "approved_files"
+  "subdirectory": "approved_files",
+  "reporters": ["PythonNative"]
 }
