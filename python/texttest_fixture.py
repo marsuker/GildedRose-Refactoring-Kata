@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 
-from gilded_rose import *
+from gilded_rose.core.items import Item
+from gilded_rose.quality_management.gilded_rose import GildedRose
 
 
 def main():

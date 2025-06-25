@@ -37,3 +37,13 @@ python tests/test_gilded_rose_approvals.py
 ```
 
 You will need to approve the output file which appears under "approved_files" by renaming it from xxx.received.txt to xxx.approved.txt.
+
+
+
+To run Approval test:
+cd python
+PYTHONPATH=$PYTHONPATH:. python tests/test_gilded_rose_approvals.py
+
+To run Unit tests:
+cd python
+PYTHONPATH=$PYTHONPATH:. python -m unittest discover tests  
